@@ -1,0 +1,1 @@
+U ovom delu zadatka treba da rebuildujem google.com stranicu. Znam bazične komande za HTML i CSS i daću sve od sebe da to izgleda kako treba. Srećno mi bilo!
