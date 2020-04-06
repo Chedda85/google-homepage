@@ -1,7 +1,156 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+    <title>Google replica</title>
 <body>
-<a href="http://google.com"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></a>
-<input type="text">
+    <style>
+        .topnav {
+            float: right;
+            margin-right: 25px;
+            font-family: arial;
+        }
+        .topnav li {
+            list-style: none;
+            display: inline-block;
+            text-align: right;
+            padding: 5px 10px 0 0;
+            vertical-align: bottom;
+            margin: 5px 5px 0 0;
+            font-size: 13px;
+            position: relative;
+        }
+        .search-box {
+            position: absolute;
+            margin-top: 75px;
+            width: 100%;
+        }
+        .search-box img {
+            padding:142px 0 24px 0;
+            margin: 0 auto;
+            display: block;
+        }
+        .search-box input {
+            width: 600px;
+            margin: 0 auto;
+            padding: 5px;
+            border: 1px solid #d9d9d9;
+            font-size: 16px;
+            border-radius: 5px;
+            display: block;
+        }
+        .search-box input:focus {
+	        border-color: #f5f5f5;
+        }
+        .search-buttons {
+            text-align: center;
+            padding-left: 0;
+        }
+        .search-buttons button {
+            background-color: #f5f5f5;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 2px;
+            color: #666;
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 27px;
+            margin: 17px 6px;
+            padding: 0 12px;
+            cursor: pointer;
+            display: inline-block;
+        }
+        .bottomnav {
+            bottom: 0 !important;
+            position: absolute;
+            width: 100%;
+            background-color: #f2f2f2;
+            border-top: 1px solid #e4e4e4;
+            font-family: arial;
+        }
+        .left-side-links, 
+        .right-side-links {
+            margin: 0;
+        }
+        .left-side-links {
+            float: left;
+            padding-left: 20px;
+        }
+        .right-side-links {
+            float: right;
+            padding-right: 10px;
+        }
+        .left-side-links li,
+        .right-side-links li {
+            list-style: none;
+            display: inline;
+            line-height: 40px;
+        }
+        .right-side-links li a:first-child  {
+            padding-right: 8px;
+        }
+        .left-side-links li:nth-child(2),
+        .left-side-links li:nth-child(3) {
+            margin-left: 7px;
+        }
+        .left-side-links li a,
+        .right-side-links li a {
+            color: #666;
+            margin: 2px 10px 0;
+            letter-spacing: 0.1px;
+            font-size: 14px;
+        }
+    </style>
+    <ul class="topnav">
+        <li>
+            <a href="https://mail.google.com/mail/?tab=wm&authuser=0&ogbl">Gmail</a>
+        </li>
+        <li>
+            <a href="https://www.google.co.nz/imghp?hl=en&tab=wi&authuser=0&ogbl">Images</a>
+        </li>
+        <li>
+            <a href="https://www.google.co.nz/intl/en/about/products?tab=wh">Apps</a>
+        </li>
+        <li>
+            <a href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com/">+Chedda</a>
+        </li>
+    </ul>
+    <div class="search-box">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    <input type="text" autofocus placeholder="Search Google or type a URL">
+        <div class="search-buttons">
+            <button>Google Search</button>
+            <button>I'm Feeling Lucky</button>
+            <p>Google offered in: <a href="https://www.google.com/setprefs?sig=0_YlTNj3i1GHTiG7NZOejw1hbwV6Q%3D&hl=mi&source=homepage&sa=X&ved=0ahUKEwiP6uzIxNLoAhXkzDgGHVRDD5EQ2ZgBCBA">Māori</a></p>
+        </div>
+    </div>
+    <div class="bottomnav">
+        <ul class="left-side-links">
+            <li>
+                <a href="https://www.google.com/intl/en_nz/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+            </li>
+            <li>
+                <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Bussiness</a>
+            </li>
+            <li>
+                <a href="https://about.google/?utm_source=google-NZ&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
+            </li>
+            <li>
+                <a href="https://google.com/search/howsearchworks/?fg=1">How Search works</a>
+            </li>
+        </ul>    
+        <ul class="right-side-links">
+            <li>
+                <a href="https://policies.google.com/privacy?fg=1">Privacy</a>
+            </li>
+            <li>
+                <a href="https://policies.google.com/terms?fg=1">Terms</a>
+            </li>
+            <li>
+                <a href="https://www.google.com/preferences?hl=en">Settings</a>
+            </li>
+
+        </ul>
+    </div>
 </body>    
+</head>    
 </html>
